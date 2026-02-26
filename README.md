@@ -1,1 +1,7 @@
-# -A11y-assist
+Built a11y.assist, a full stack web accessibility scanner that audits any URL and surfaces WCAG 2.1 violations across 11 categories — missing alt text, colour contrast failures, unlabelled inputs, broken heading structure, suppressed focus indicators, and more — through a React dashboard with an animated score ring and severity breakdown.
+Under the hood, a deterministic XOR-shift seeded RNG generates unique, reproducible scan results per domain with varied issue types, severity distribution, and scan metadata — making the tool fully demoable without spinning up a live Puppeteer back-end. Every detected violation comes with a before/after DOM diff and a one-click copy-to-clipboard code fix, so developers know exactly what to change and can patch it in seconds.
+The GitHub Actions CI workflow (axe-core + Puppeteer) baselines a project's accessibility state and automatically blocks any PR that introduces new regressions — bringing a11y into the standard code review loop rather than treating it as an afterthought. A live CI dashboard tracks recent PR check history, block/pass statuses, and per-branch issue counts in real time.
+The Spring Boot scanner API is fully documented so any developer can swap in a real Puppeteer back-end via a single REST endpoint with zero front-end changes.
+Tech: React, JavaScript, Spring Boot, Puppeteer, axe-core, GitHub Actions, WCAG 2.1, SVG, REST API
+
+The phrase "bringing a11y into the standard code review loop rather than treating it as an afterthought" is worth keeping — it shows product thinking, not just coding ability, which stands out strongly on LinkedIn to senior engineers and hiring managers.
