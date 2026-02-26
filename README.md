@@ -64,9 +64,7 @@ URL → Puppeteer scan → axe-core analysis → violation report → code fix s
 
 | Scanner Dashboard | Issue Detail + Fix | CI Dashboard |
 |---|---|---|
-| <img width="850" height="1197" alt="image" src="https://github.com/user-attachments/assets/a78bcd9d-cbd7-4881-88d8-2ba9226ed8e8" />
- | <img width="1374" height="646" alt="image" src="https://github.com/user-attachments/assets/66db0ff8-c84a-454f-9381-4f124d434b2c" />
- | <img width="1124" height="1213" alt="image" src="https://github.com/user-attachments/assets/cabca716-277d-48c1-b228-68322b3a56b6" />
+| <img width="400" alt="Scanner Dashboard" src="https://github.com/user-attachments/assets/a78bcd9d-cbd7-4881-88d8-2ba9226ed8e8" /> | <img width="400" alt="Issue Detail" src="https://github.com/user-attachments/assets/66db0ff8-c84a-454f-9381-4f124d434b2c" /> | <img width="400" alt="CI Dashboard" src="https://github.com/user-attachments/assets/cabca716-277d-48c1-b228-68322b3a56b6" /> |
  |
 
 
